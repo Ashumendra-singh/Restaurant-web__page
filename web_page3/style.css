@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("background.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.page nav{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 1rem;
+}
+
+.page nav a{
+    color: #bdb755;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo img{
+    height: 2rem;
+}
+
+.order{
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    background-color: red;
+}
+
+.order a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    color: rgb(152, 145, 12);
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+
+.main_ser{
+    display: flex;
+    justify-content: center;
+}
+
+.main_del{
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    height: 25px;
+    width: 150px;
+    background-color: rgb(180, 57, 57);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.side_logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    float: right;
+}
+
+.side_logo img{
+    width: 100px;
+    height: 100px;
+}
